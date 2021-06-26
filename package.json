@@ -1,0 +1,26 @@
+{
+  "name": "@spcsp/osd-toast",
+  "version": "0.1.0",
+  "private": false,
+  "description": "A Lightweight wrapper around `StrokesPlus.UI.TextOverlay`",
+  "keywords": [
+    "StrokesPlus.net",
+    "clearscript",
+    "plugin",
+    "script",
+    "action"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Kevin Hill",
+    "email": "kevinkhill@pm.me",
+    "url": "https://kevinhill.codes"
+  },
+  "repository": {
+    "url": "https://github.com/spcsp/osd-toast"
+  },
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
