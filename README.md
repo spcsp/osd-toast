@@ -1,9 +1,11 @@
 @spcsp/osd-toast
 ================
 
-A Lightweight wrapper around `StrokesPlus.UI.TextOverlay`
+> A Lightweight wrapper around `StrokesPlus.UI.TextOverlay`
 
-### Installation
+[![NPM Version][npm-image]][npm-url]
+
+## Installation
 
 Open the S+ Console and paste this in to the Script tab and run
 
@@ -11,10 +13,13 @@ Open the S+ Console and paste this in to the Script tab and run
 SPPM.Install("@spcsp/osd-toast");
 ```
 
-### Usage
+## Usage
 
 In your load script or action script
 
 ```javascript
 SPPM.Load("@spcsp/osd-toast");
 ```
+
+[npm-image]: https://img.shields.io/npm/v/@spcsp/osd-toast.svg
+[npm-url]: https://www.npmjs.com/package/@spcsp/osd-toast
