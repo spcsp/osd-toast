@@ -3,12 +3,18 @@
 
 A Lightweight wrapper around `StrokesPlus.UI.TextOverlay`
 
-## Installation
+### Installation
+
+Open the S+ Console and paste this in to the Script tab and run
+
 ```javascript
-SPPM.Use("@spcsp/osd-toast");
-// Or part of many...
-SPPM.Use([
-  "...",
-  "@spcsp/osd-toast"
-]);
+SPPM.Install("@spcsp/osd-toast");
+```
+
+### Usage
+
+In your load script or action script
+
+```javascript
+SPPM.Load("@spcsp/osd-toast");
 ```
